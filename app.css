@@ -1,5 +1,5 @@
 :root {
-  background-color: #a6cbee;
+  background-color: #111828;
   font-size: 62.5%;
 }
 
@@ -124,4 +124,8 @@ input {
 
 input::placeholder {
   color: #aaa;
+}
+
+.game{
+  color:white
 }

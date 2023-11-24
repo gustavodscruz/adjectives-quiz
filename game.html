@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Adjectives Quiz - Play</title>
+    
     <link rel="stylesheet" href="app.css" />
     <link rel="stylesheet" href="game.css" />
   </head>
@@ -13,7 +14,7 @@
       <div id="game" class="justify-center flex-column">
         <div id="hud">
           <div id="hud-item">
-            <p id="progressText" class="hud-prefix">
+            <p id="progressText" class="hud-prefix game">
               Question
             </p>
             <div id="progressBar">
@@ -21,7 +22,7 @@
             </div>
           </div>
           <div id="hud-item">
-            <p class="hud-prefix">
+            <p class="hud-prefix game">
               Score
             </p>
             <h1 class="hud-main-text" id="score">
@@ -29,7 +30,7 @@
             </h1>
           </div>
         </div>
-        <h2 id="question">What is the answer to this questions?</h2>
+        <h2 id="question" class="game">What is the answer to this questions?</h2>
         <div class="choice-container">
           <p class="choice-prefix">A</p>
           <p class="choice-text" data-number="1">Choice 1</p>
